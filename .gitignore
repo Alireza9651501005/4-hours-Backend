@@ -1,0 +1,12 @@
+node_modules
+.env
+# This ignores should become active in production
+# public/course-images/*
+# public/course-attachments/*
+# public/profile-images/*
+# public/course-images/*
+# !public/course-images/dev/*
+# public/content
+# credentials/*
+.vs
+.vscode

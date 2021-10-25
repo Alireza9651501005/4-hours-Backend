@@ -1,0 +1,55 @@
+{
+	"name": "servatafarinan_backend",
+	"version": "1.0.0",
+	"description": "API server for servat afarinan project",
+	"main": "server.js",
+	"scripts": {
+		"start": "node pms_server.js",
+		"dev": "nodemon pms_server.js",
+		"fix": "git add . & git commit -m \"for some fix or test\" & git push"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/servatafarinan/servatafarinan_backend.git"
+	},
+	"keywords": [
+		"api",
+		"servatAfarinan",
+		"node.js",
+		"express"
+	],
+	"author": "chista-rayaneh/alireza-tanoomandian",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/servatafarinan/servatafarinan_backend/issues"
+	},
+	"homepage": "https://gitlab.com/servatafarinan/servatafarinan_backend#readme",
+	"dependencies": {
+		"async": "^3.2.0",
+		"axios": "^0.21.1",
+		"bcrypt": "^5.0.1",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"crypto-js": "^4.0.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-validator": "^6.6.1",
+		"firebase-admin": "^9.4.2",
+		"helmet": "^4.1.1",
+		"jalaali-js": "^1.1.5",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.21",
+		"mongoose": "^5.12.8",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.2",
+		"mysql2": "^2.2.5",
+		"nodemailer": "^6.6.5",
+		"sequelize": "^6.3.5",
+		"sequelize-cli": "^6.2.0",
+		"striptags": "^3.1.1",
+		"uuid": "^8.3.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}

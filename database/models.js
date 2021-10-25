@@ -1,0 +1,24 @@
+// centering all database models
+exports.User = require("../models/User.model");
+exports.Admin = require("../models/Admin.model");
+exports.Course = require("../models/Course.model");
+exports.Chapter = require("../models/Chapter.model");
+exports.Lesson = require("../models/Lesson.model");
+exports.Attachment = require("../models/Attachment.model");
+exports.Tag = require("../models/Tag.model");
+exports.Comment = require("../models/Comment.model");
+exports.Comment_User = require("../models/Comment_User.model");
+exports.User_Course = require("../models/User_Course.model");
+exports.Content = require("../models/Content.model");
+exports.UserCheck = require("../models/UserCheck.model");
+exports.Message = require("../models/Message.model");
+exports.User_Lesson = require("../models/User_Lesson.model");
+exports.UserDevice = require("../models/UserDevice.model");
+exports.Score = require("../models/Score.model");
+exports.PaymentLog = require("../models/PaymentLog.model");
+exports.Wallet = require("../models/Wallet.model");
+exports.Setting = require("../models/Setting.model");
+exports.Network = require("../models/Network.model");
+exports.LessonVideoLog = require("../models/LessonVideoLog.model");
+exports.Order = require("../models/Order.model");
+exports.Discount = require("../models/Discount.model");
